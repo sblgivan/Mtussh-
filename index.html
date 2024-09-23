@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtumba App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+        <div class="delivery-banner">
+            <p>Delivery within 24 hours for selected items!</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Categories</h2>
+            <div class="category-list">
+                <div class="category">
+                    <img src="Img/phone.jpg" alt="Phones">
+                    <p>Phones</p>
+                </div>
+                <div class="category">
+                    <img src="Img/console.jpg" alt="Consoles">
+                    <p>Consoles</p>
+                </div>
+                <div class="category">
+                    <img src="Img/laptop.jpg" alt="Laptops">
+                    <p>Laptops</p>
+                </div>
+                <div class="category">
+                    <img src="Img/camera.jpg" alt="Cameras">
+                    <p>Cameras</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flash Sale Section -->
+        <section class="flash-sale">
+            <h2>Flash Sale</h2>
+            <div class="timer">Sale ends in: <span id="flash-sale-timer"></span></div>
+            <div class="flash-sale-products">
+                <!-- Example Product -->
+                <div class="product">
+                    <img src="Img/offers.jpg" alt="mtumba offers near you">
+                    <p>Nintendo Switch</p>
+                    <p>sh 500</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-carousel">
+                <div class="product">
+                    <img src="Img/IPhone.jpg" alt="iPhone">
+                    <p>iPhone 12</p>
+                    <p>$999</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- More products can be added here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Cart -->
+    <footer>
+        <button onclick="goToCart()">Go to Cart</button>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+                                   </html>
